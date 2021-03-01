@@ -1,3 +1,5 @@
+### In this project I have tried out styled components and react-firebase-hooks, deployed app at https://slck-clone-c7860.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
