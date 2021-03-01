@@ -18,7 +18,7 @@ function App() {
       <AppLoading>
         <AppLoadingContents>
           <img
-            src="http://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+            src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg"
             alt=""
           />
           <Spinner name="ball-spin-fade-loader" color="purple" fadeIn="none" />

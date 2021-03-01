@@ -13,7 +13,7 @@ function Login() {
     <LoginContainer>
       <LoginInnerContainer>
         <img
-          src="http://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+          src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg"
           alt=""
         />
         <h1>Sign in to Slack clone app</h1>
