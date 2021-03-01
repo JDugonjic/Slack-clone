@@ -9,14 +9,20 @@ import {
   HeaderRight,
   HeaderSearch,
 } from "../styles/Header.style";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { auth } from "../firebase";
 
 function Header() {
+  const [user] = useAuthState(auth);
+
   return (
     <div>
       <HeaderContainer>
         <HeaderLeft>
           <HeaderAvatar
-          // TODO: Add onClick
+            onClick={() => auth.signOut()}
+            alt={user?.displayName}
+            src={user?.photoURL}
           />
           <AccessTimeIcon />
         </HeaderLeft>
